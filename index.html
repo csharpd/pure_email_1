@@ -31,6 +31,27 @@
             max-width: 600px;
             height: auto;
         }
+
+        .grey-footer {
+            color: #595959; 
+            font-family:HelveticaNeue-Light,
+            sans-serif;  
+            font-size: 8px; 
+            line-height: 10px;"
+        }
+
+        .orange-footer {
+            color: #fe5000; 
+            font-family:Helvetica,sans-serif; 
+            sans-serif;  
+            font-size: 8px; 
+            line-height: 10px;"
+        }
+
+        .orange-link{
+            text-decoration:none;
+            color: #fe5000; 
+        }
         @media only screen and (min-device-width: 601px) {
         .content {width: 600px !important;}
         }  
@@ -50,7 +71,7 @@
                                         <tr>
                                           <td class="full-width-image" style="color: #fe5000; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 12px; 
                 line-height: 14px; font-style: italic;">
-                                            <img src="images/robot.png" width="600" alt="START RUNNING THE" />
+                                            <img src="http://i68.tinypic.com/2d7x5ko.png" width="600" alt="START RUNNING THE" />
                                         </td>
                                          </tr>
                                          <tr>
@@ -115,7 +136,7 @@
                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
                                                             <tbody>
                                                                 <tr>
-                                                                    <td width="230px" class="grey-text" style="padding-top:4px">
+                                                                    <td width="230px" class="grey-text" style="padding-top:4px; padding-bottom:24px">
                                                                         <b>CLICK REGISTER TO GO FORTH AND EMBRACE THE NEW POSSIBLE</b>
                                                                     </td>
                                                                 </tr>
@@ -161,7 +182,7 @@
                                                       <table width="100%" cellpadding="0" cellspacing="0" border="1" class="section-footer" >
                                                         <tr class="one-col" >
                                                            <td class="inner" style="padding-top:32px; padding-bottom:26px; padding-right:15px; padding-left:15px; " >
-                                                              <table cellpadding="0" cellspacing="0" border="0" width="100%" class="contents" style="font-size:12px; line-height:16px; color:#606060; text-align:center; " >
+                                                              <table cellpadding="0" cellspacing="0" border="0" width="60%" align="center" class="contents" style="font-size:12px; line-height:16px; color:#606060; text-align:center; " >
                                                         <tr >
                                                            <td class="type" style="padding-bottom:10px; font-family:Helvetica,sans-serif; " >
                                                               <table align="center" cellpadding="0" cellspacing="0" border="0" class="social" style="font-size:8px; line-height:10px; margin-top:0; margin-bottom:0; margin-right:auto; margin-left:auto; " >
@@ -194,8 +215,15 @@
                                                         <tr >
                                                            <td class="type" style="font-family:Helvetica,sans-serif; " >
                                                               <div class="mktEditable" id="footer" >
-                                                                 <p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:4px;">Pure Storage：11047 台北市信義區松智路1號華新麗華信義大樓11樓</p>
-                                                                 <p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:4px;"><b><a href="{{system.forwardToFriendLink}}" style="text-decoration:none;color:#606060;">寄給朋友</a> &middot; <a href="{{system.unsubscribeLink}}" style="text-decoration:none;color:#606060;">取消訂閱</a></b></p>
+                                                                 <p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:6px;" class="orange-footer">
+                                                                <a href="#" class="orange-link">Contact us</a> | 
+                                                                <a href="#" class="orange-link">Privacy Policy</a> | 
+                                                                <a href="{{system.unsubscribeLink}}" class="orange-link">Unsubscribe</a> | 
+                                                                <a href="#" class="orange-link">View in browser</a>
+                                                                </p>
+                                                                <p style="margin-top:0;margin-right:0;margin-left:0;margin-bottom:4px;" class="grey-footer">
+                                                                    © 2017 Pure Storage Inc. All rights reserved. Pure Storage and the "P" logo are trademarks or registered trademarks of Pure Storage in the U.S. and other countries. All other trademarks are the property of their respective owners
+                                                                </p>
                                                               </div>
                                                            </td>
                                                         </tr>
